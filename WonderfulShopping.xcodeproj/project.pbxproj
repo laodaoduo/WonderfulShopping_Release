@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B5F4711BED956600E35470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F4701BED956600E35470 /* main.m */; };
+		04B5F4741BED956600E35470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F4731BED956600E35470 /* AppDelegate.m */; };
+		04B5F4771BED956600E35470 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F4761BED956600E35470 /* ViewController.m */; };
+		04B5F47A1BED956600E35470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B5F4781BED956600E35470 /* Main.storyboard */; };
+		04B5F47C1BED956600E35470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B5F47B1BED956600E35470 /* Images.xcassets */; };
+		04B5F47F1BED956600E35470 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B5F47D1BED956600E35470 /* LaunchScreen.xib */; };
+		04B5F48B1BED956600E35470 /* WonderfulShoppingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5F48A1BED956600E35470 /* WonderfulShoppingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B5F4851BED956600E35470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B5F4631BED956600E35470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B5F46A1BED956600E35470;
+			remoteInfo = WonderfulShopping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B5F46B1BED956600E35470 /* WonderfulShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WonderfulShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B5F46F1BED956600E35470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B5F4701BED956600E35470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B5F4721BED956600E35470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B5F4731BED956600E35470 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B5F4751BED956600E35470 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B5F4761BED956600E35470 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B5F4791BED956600E35470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B5F47B1BED956600E35470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04B5F47E1BED956600E35470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04B5F4841BED956600E35470 /* WonderfulShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderfulShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B5F4891BED956600E35470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B5F48A1BED956600E35470 /* WonderfulShoppingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderfulShoppingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B5F4681BED956600E35470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B5F4811BED956600E35470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B5F4621BED956600E35470 = {
+			isa = PBXGroup;
+			children = (
+				04B5F46D1BED956600E35470 /* WonderfulShopping */,
+				04B5F4871BED956600E35470 /* WonderfulShoppingTests */,
+				04B5F46C1BED956600E35470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B5F46C1BED956600E35470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F46B1BED956600E35470 /* WonderfulShopping.app */,
+				04B5F4841BED956600E35470 /* WonderfulShoppingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B5F46D1BED956600E35470 /* WonderfulShopping */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F4721BED956600E35470 /* AppDelegate.h */,
+				04B5F4731BED956600E35470 /* AppDelegate.m */,
+				04B5F4751BED956600E35470 /* ViewController.h */,
+				04B5F4761BED956600E35470 /* ViewController.m */,
+				04B5F4781BED956600E35470 /* Main.storyboard */,
+				04B5F47B1BED956600E35470 /* Images.xcassets */,
+				04B5F47D1BED956600E35470 /* LaunchScreen.xib */,
+				04B5F46E1BED956600E35470 /* Supporting Files */,
+			);
+			path = WonderfulShopping;
+			sourceTree = "<group>";
+		};
+		04B5F46E1BED956600E35470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F46F1BED956600E35470 /* Info.plist */,
+				04B5F4701BED956600E35470 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B5F4871BED956600E35470 /* WonderfulShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F48A1BED956600E35470 /* WonderfulShoppingTests.m */,
+				04B5F4881BED956600E35470 /* Supporting Files */,
+			);
+			path = WonderfulShoppingTests;
+			sourceTree = "<group>";
+		};
+		04B5F4881BED956600E35470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B5F4891BED956600E35470 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B5F46A1BED956600E35470 /* WonderfulShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B5F48E1BED956600E35470 /* Build configuration list for PBXNativeTarget "WonderfulShopping" */;
+			buildPhases = (
+				04B5F4671BED956600E35470 /* Sources */,
+				04B5F4681BED956600E35470 /* Frameworks */,
+				04B5F4691BED956600E35470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WonderfulShopping;
+			productName = WonderfulShopping;
+			productReference = 04B5F46B1BED956600E35470 /* WonderfulShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B5F4831BED956600E35470 /* WonderfulShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B5F4911BED956600E35470 /* Build configuration list for PBXNativeTarget "WonderfulShoppingTests" */;
+			buildPhases = (
+				04B5F4801BED956600E35470 /* Sources */,
+				04B5F4811BED956600E35470 /* Frameworks */,
+				04B5F4821BED956600E35470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B5F4861BED956600E35470 /* PBXTargetDependency */,
+			);
+			name = WonderfulShoppingTests;
+			productName = WonderfulShoppingTests;
+			productReference = 04B5F4841BED956600E35470 /* WonderfulShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B5F4631BED956600E35470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = laodao;
+				TargetAttributes = {
+					04B5F46A1BED956600E35470 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					04B5F4831BED956600E35470 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 04B5F46A1BED956600E35470;
+					};
+				};
+			};
+			buildConfigurationList = 04B5F4661BED956600E35470 /* Build configuration list for PBXProject "WonderfulShopping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B5F4621BED956600E35470;
+			productRefGroup = 04B5F46C1BED956600E35470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B5F46A1BED956600E35470 /* WonderfulShopping */,
+				04B5F4831BED956600E35470 /* WonderfulShoppingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B5F4691BED956600E35470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5F47A1BED956600E35470 /* Main.storyboard in Resources */,
+				04B5F47F1BED956600E35470 /* LaunchScreen.xib in Resources */,
+				04B5F47C1BED956600E35470 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B5F4821BED956600E35470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B5F4671BED956600E35470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5F4771BED956600E35470 /* ViewController.m in Sources */,
+				04B5F4741BED956600E35470 /* AppDelegate.m in Sources */,
+				04B5F4711BED956600E35470 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B5F4801BED956600E35470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5F48B1BED956600E35470 /* WonderfulShoppingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B5F4861BED956600E35470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B5F46A1BED956600E35470 /* WonderfulShopping */;
+			targetProxy = 04B5F4851BED956600E35470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B5F4781BED956600E35470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B5F4791BED956600E35470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B5F47D1BED956600E35470 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B5F47E1BED956600E35470 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B5F48C1BED956600E35470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04B5F48D1BED956600E35470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B5F48F1BED956600E35470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WonderfulShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B5F4901BED956600E35470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WonderfulShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04B5F4921BED956600E35470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WonderfulShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WonderfulShopping.app/WonderfulShopping";
+			};
+			name = Debug;
+		};
+		04B5F4931BED956600E35470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WonderfulShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WonderfulShopping.app/WonderfulShopping";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B5F4661BED956600E35470 /* Build configuration list for PBXProject "WonderfulShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B5F48C1BED956600E35470 /* Debug */,
+				04B5F48D1BED956600E35470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B5F48E1BED956600E35470 /* Build configuration list for PBXNativeTarget "WonderfulShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B5F48F1BED956600E35470 /* Debug */,
+				04B5F4901BED956600E35470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04B5F4911BED956600E35470 /* Build configuration list for PBXNativeTarget "WonderfulShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B5F4921BED956600E35470 /* Debug */,
+				04B5F4931BED956600E35470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B5F4631BED956600E35470 /* Project object */;
+}
