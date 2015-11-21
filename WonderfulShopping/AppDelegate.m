@@ -7,7 +7,12 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WJTabBarController.h"
+#import "HomePageVC.h"
+#import "BrandVC.h"
+#import "ThemeVC.h"
+#import "ShoppingTrolleyVC.h"
+#import "MyselfVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,10 +21,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    [self createTabBar];
+    
+    
     return YES;
 }
-
+- (void)createTabBar
+{
+    WJTabBarController *tabBarVC =[[WJTabBarController alloc] init];
+    
+    [tabBarVC addViewControllerWithString:@"HomePageVC" title:nil image:@"001" addSelectedImage:@"001"];
+    
+    [tabBarVC addViewControllerWithString:@"BrandVC" title:@"品牌" image:@"002" addSelectedImage:@"002"];
+    [tabBarVC addViewControllerWithString:@"ThemeVC" title:nil image:@"003" addSelectedImage:@"003"];
+    [tabBarVC addViewControllerWithString:@"ShoppingTrolleyVC" title:@"购物车" image:@"004" addSelectedImage:@"004"];
+    [tabBarVC addViewControllerWithString:@"MyselfVC" title:nil image:@"005" addSelectedImage:@"005"];
+    
+    
+    
+    self.window.rootViewController = tabBarVC;
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
